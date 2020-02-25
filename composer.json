@@ -1,0 +1,29 @@
+{
+    "name": "na\/ingresos",
+    "description": "Registro de ingresos y egresos",
+    "type": "library",
+    "license": "LGPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Na\\Ingresos\\": "src\/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Callizaya",
+            "email": "davidcallizaya@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Na\\Ingresos\\PackageServiceProvider"
+            ]
+        },
+        "icon": "fas fa-rocket"
+    },
+    "scripts": {},
+    "require": {}
+}
